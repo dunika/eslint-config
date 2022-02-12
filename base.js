@@ -4,7 +4,7 @@ module.exports = {
   ],
   plugins: [
     'import',
-    'modules-newline',
+    'modules-newlines',
   ],
   rules: {
     'no-await-in-loop': 0,
@@ -19,7 +19,7 @@ module.exports = {
       ignoreStrings: true,
     }],
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
-    'modules-newline/import-declaration-newline': 'error',
+    'modules-newlines/import-declaration-newline': 'error',
     'no-plusplus': 0,
     'import/prefer-default-export': 0,
     'object-property-newline': ['error', { allowAllPropertiesOnSameLine: false }],
