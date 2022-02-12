@@ -1,5 +1,6 @@
 {
-  "name": "@dunika/eslint-config",
+  "name": "dunika-eslint-config",
+  "private": false,
   "version": "0.0.0",
   "license": "ISC",
   "dependencies": {
