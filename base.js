@@ -1,7 +1,6 @@
 module.exports = {
   extends: [
     'airbnb',
-    'plugin:jest/recommended',
   ],
   plugins: [
     'import',
@@ -27,6 +26,5 @@ module.exports = {
   },
   env: {
     node: true,
-    'jest/globals': true,
   },
 };
