@@ -3,7 +3,6 @@ module.exports = {
     './base.js',
     'airbnb/hooks',
   ],
-  parser: '@babel/eslint-parser',
   rules: {
     'react-hooks/exhaustive-deps': 1,
     'react/react-in-jsx-scope': 0,
